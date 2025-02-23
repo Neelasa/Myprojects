@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('https://your-background-image-url.com') no-repeat center center fixed;
+
+    background-size: cover;
+
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+#game {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#choices button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 5px;
+    transition: transform 0.2s;
+}
+
+#choices button img {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#choices button:hover {
+    transform: scale(1.1);
+}
+
+#result p {
+    font-size: 24px;
+    margin: 10px 0;
+}
